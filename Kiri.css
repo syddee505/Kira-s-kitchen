@@ -34,17 +34,17 @@ h2{
 }
 /* image neds to be a reasonable size*/
 img {
-   width: 212px;
+  width: 212px;
   height: 212px;
   flex-direction:column;
   align-items: center;
   justify-content: center;
 }
 .rolls{ 
- flex-direction: column;
+  flex-direction: column;
   display: block;
   margin-bottom: 10px;
- 
+
 }
 .salmon{
   display: flex;
@@ -57,7 +57,7 @@ img {
 }
 .apps{
   flex-direction: column;
- align-content: center;
+  align-content: center;
   display: flex;
   border:solid 3px;
   margin-bottom: 10px; 
