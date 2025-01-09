@@ -1,0 +1,79 @@
+body {
+  background: #f8f1f1;
+  flex-direction: column;
+}
+
+p {
+  color: black;
+  font-family: Arial;
+  color:#0b940b;
+  font-weight:bold;
+  text-align: center;
+}
+
+h1 {
+  font-weight: bold;
+  font-family: fantasy;
+  text-align: center;
+}
+h4{
+  color:black;
+  text-align: center;
+}
+h3 {
+  color:red;
+  text-align: center;
+}
+
+h5 {
+  color:red;
+  text-align: center;
+} 
+h2{
+  text-align: center;
+}
+/* image neds to be a reasonable size*/
+img {
+   width: 212px;
+  height: 212px;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+.rolls{ 
+ flex-direction: column;
+  display: block;
+  margin-bottom: 10px;
+ 
+}
+.salmon{
+  display: flex;
+  margin-bottom: 10px;
+}
+.burger{
+  flex-direction: column;
+  display: flex;
+  border-style: solid;
+}
+.apps{
+  flex-direction: column;
+ align-content: center;
+  display: flex;
+  border:solid 3px;
+  margin-bottom: 10px; 
+} 
+.main{
+  flex-direction: column;
+  align-content:center;
+  display: flex;
+  border: solid 3px;
+  margin-bottom: 10px;
+}
+.gallery{
+  justify-content:center;
+  flex-wrap: wrap;
+  display: flex;
+}  
+.content{
+  padding: 10px;
+}
